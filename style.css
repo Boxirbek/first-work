@@ -1,0 +1,85 @@
+.container{
+    width: 100%;
+    height: 750px;
+    display: flex;
+   }
+   .right{
+    width: 50%;
+    height: 750px;
+    background-color: beige;
+   }
+   .welcome-text{
+margin-left: 200px;
+    color: var(--800, #2D3748);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+   form {
+   margin: 100px;
+   display: block;
+   }
+   input,
+   button{
+display: block;
+   }
+   input{
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+   }
+   .text{
+    color: var(--800, #2D3748);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+   .legend{
+    margin-top: 10px;
+    color: var(--900, #1A202C);
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 50px;
+   }
+   .cheekbox{
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+   }
+.btn1{
+    border-radius: 5px;
+background: #04C35C;
+width: 347px;
+height: 50px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btn2{
+    margin-top: 10px;
+    border-radius: 5px;
+background: var(--800, #2D3748);
+width: 347px;
+height: 50px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
